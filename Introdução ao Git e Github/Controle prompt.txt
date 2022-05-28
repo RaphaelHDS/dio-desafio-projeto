@@ -1,0 +1,38 @@
+Download Gir: https://git-scm.com/
+
+-------------------------------------------------------------
+Notas de comandos pelo cmd:
+
+dir - lista os arquivos e pastas do diretório;
+
+cd [diretório] - seleciona o diretório; Ex: cd / (entra no disco local c)
+
+cd .. - volta um diretório;
+
+cls - limpa o termial; (no git bash: ctrl + l)
+
+mkdir [nome da pasta] - cria uma pasta;
+
+echo hello > hello.txt - cria um arquivo txt com mesmo nome;
+
+del [nome da pasta] - deleta os arquivos dentro da pasta;
+
+rmdir [nome da pasta] /S /Q - exclui a pasta;
+
+-------------------------------------------------------------
+
+Git:
+
+git config --global --unset user.[propriedade pra alterar/deletar]
+
+git config --global user.email " " - cria o novo email/name;
+                        .name
+
+git clone [link do projeto que quer clonar]
+
+
+Enviar code para o repositório:
+
+git remote add origin [link do repositório]
+git remote -v
+git push origin master
