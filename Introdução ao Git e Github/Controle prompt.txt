@@ -23,6 +23,11 @@ rmdir [nome da pasta] /S /Q - exclui a pasta;
 
 Git:
 
+git add *
+git commit -m "Incluido as alterações"
+git push origin main
+
+
 git config --global --unset user.[propriedade pra alterar/deletar]
 
 git config --global user.email " " - cria o novo email/name;
