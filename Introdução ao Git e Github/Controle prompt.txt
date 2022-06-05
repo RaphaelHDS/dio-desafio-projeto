@@ -38,6 +38,19 @@ git clone [link do projeto que quer clonar]
 
 Enviar code para o repositório:
 
-git remote add origin [link do repositório]
-git remote -v
+git status
+git add *
+git status
+git commit -m 'Meu comentário bonito'
+git remote add origin "[link do repositório]"
+git remote show origin -n
+git push origin master
+
+
+Atualizar repositório:
+
+git status
+git add .
+git status
+git commit -m 'seu comentário'
 git push origin master
